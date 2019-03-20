@@ -12,17 +12,4 @@ public class Main101Games /* extends JApplet */{
 		return new GameGUI(Arrays.asList(sweeper));
 	}
 
-	/*
-	 * @Override public void init() { final JApplet applet = this; try {
-	 * SwingUtilities.invokeAndWait(new Runnable() {
-	 * 
-	 * @Override public void run() { GameGUI game = startGame();
-	 * applet.add(game); game.initialize(); } }); } catch (InterruptedException
-	 * e) { // TODO Auto-generated catch block e.printStackTrace(); } catch
-	 * (InvocationTargetException e) { // TODO Auto-generated catch block
-	 * e.printStackTrace(); }
-	 * 
-	 * }
-	 */
-
 }

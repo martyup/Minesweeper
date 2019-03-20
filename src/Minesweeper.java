@@ -322,7 +322,7 @@ IMinesweeper {
 			if(hasMine(pos))
 				userBoard.set(pos, SweepState.DISARMED);
 		}
-		ui.setStatus("Congratulations! YOU WIN! Time: " + getElapsedTime());
+		ui.setStatus("YOU WON! Time: " + getElapsedTime());
 		ui.endGame();
 	}
 }
